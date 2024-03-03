@@ -159,6 +159,12 @@ a:hover {
     background: #222;
 }
 
+.about-img {
+    width: 305px;
+    height: 512px;
+    object-fit: cover;
+}
+
 .about__inner {
     margin: 0 auto;
 }
@@ -220,10 +226,17 @@ a:hover {
 
 .about-item {
     margin-bottom: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .column-about {
     margin-right: 20px;
+}
+
+.column-about:last-of-type .about-item {
+    opacity: 0.7;
 }
 
 .about-desc--small {
@@ -350,5 +363,5 @@ a:hover {
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 20px;
-    color: var(--color-heading);
+    color: #fff;
 }
